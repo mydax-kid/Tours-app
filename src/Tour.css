@@ -1,0 +1,48 @@
+.tour-card{
+  width: 500px;
+  height: auto;
+  padding-bottom: 15px;
+  margin: 15px 0;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0 , 0, 0.3);
+  background: #fff;
+}
+
+.tour-card img{
+  width: 100%;
+  max-height: 280px;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info, .content{
+  padding: 20px;
+}
+
+.content{
+  text-align: left;
+}
+
+.btn{
+  padding: 3px 8px;
+  cursor: pointer;
+}
+
+.readmore{
+  border: none;
+  margin-left: 5px;
+  color: dodgerblue;
+}
+
+.readmore:hover{
+  transform: scale(1.0001);
+  cursor: pointer;
+}
